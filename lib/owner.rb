@@ -58,6 +58,8 @@ class Owner
    @pets[:fishes].each{|fish|fish.mood ="nervous"}
    @pets.clear
  end
+ 
+ def list_pets
 
    
 end
