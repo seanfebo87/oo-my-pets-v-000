@@ -40,8 +40,8 @@ class Owner
    self.pets[:dogs] << new_dog
  end
  
- def walk_dogs
-   Dog.mood = "happy"
+ def walk_dogs(dog)
+   dog.mood = "happy"
  end
    
    
